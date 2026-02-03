@@ -1,0 +1,2 @@
+# Runtime dependencies for FileSystemManager
+# None required — standard library only
