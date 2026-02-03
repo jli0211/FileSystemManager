@@ -96,16 +96,12 @@ CI runs tests on push/PR (see `.github/workflows/test.yml`).
 .
 ├── FileSystemManager.py   # Main module
 ├── tests/
-│   └── test_FileSystemManager.py
-├── FileSystemManager.md   # Detailed documentation
+│   └── test_FileSystemManager.py #unit testing
 ├── README.md
 ├── LICENSE
 ├── pyproject.toml         # Project metadata, pytest/ruff/black config
 ├── requirements.txt       # Runtime deps (none)
-├── requirements-dev.txt   # pytest, ruff, black
-├── create_release.sh
-├── RELEASE_GUIDE.md
-└── RELEASE_CHECKLIST.md
+└── requirements-dev.txt   # pytest, ruff, black
 ```
 
 ## License
